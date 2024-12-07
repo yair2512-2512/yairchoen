@@ -1,4 +1,6 @@
-import time
+#The model in the script is designed to detect anomalies in network traffic data.
+#It uses the Isolation Forest algorithm to identify outliers in data related to IP addresses, packet lengths, and timestamps.
+import time 
 import pandas as pd
 from sklearn.ensemble import IsolationForest
 import ipaddress
